@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="847.0" y="827.0">com</node>
+    <node x="753.75" y="0.0">AbstractSignal</node>
+    <node x="338.0" y="243.0">Scanner</node>
+    <node x="490.0" y="753.0">netscape</node>
+    <node x="347.0" y="567.0">Node</node>
+    <node x="759.0" y="567.0">toolbarButtonGraphics</node>
+    <node x="455.0" y="231.0">Printer</node>
+    <node x="0.0" y="901.0">sun</node>
+    <node x="252.0" y="753.0">groovyjarjarasm</node>
+    <node x="686.0" y="827.0">java</node>
+    <node x="0.0" y="0.0">Hub</node>
+    <node x="350.0" y="827.0">javax</node>
+    <node x="868.0" y="753.0">javafx</node>
+    <node x="0.0" y="827.0">images</node>
+    <node x="518.0" y="827.0">junit</node>
+    <node x="154.0" y="901.0">org</node>
+    <node x="0.0" y="567.0">SignalType</node>
+    <node x="291.5" y="0.0">Device</node>
+    <node x="163.0" y="567.0">TestFridge</node>
+    <node x="0.0" y="297.0">Host</node>
+    <node x="308.0" y="901.0">jdk</node>
+    <node x="679.0" y="753.0">META-INF</node>
+    <node x="835.0" y="147.0">SignalSwitch</node>
+    <node x="175.0" y="827.0">groovy</node>
+    <node x="235.0" y="243.0">Mouse</node>
+    <node x="690.0" y="147.0">SignalPrint</node>
+    <node x="472.0" y="567.0">groovyjarjarcommonscli</node>
+    <node x="0.0" y="753.0">groovyjarjarantlr</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SignalPrint" target="AbstractSignal">
+      <point x="0.0" y="-26.5" />
+      <point x="752.5" y="122.0" />
+      <point x="790.25" y="122.0" />
+      <point x="-36.5" y="48.5" />
+    </edge>
+    <edge source="Host" target="Hub">
+      <point x="0.0" y="-112.5" />
+      <point x="0.0" y="123.5" />
+    </edge>
+    <edge source="SignalSwitch" target="AbstractSignal">
+      <point x="0.0" y="-26.5" />
+      <point x="901.0" y="122.0" />
+      <point x="863.25" y="122.0" />
+      <point x="36.5" y="48.5" />
+    </edge>
+    <edge source="Printer" target="Device">
+      <point x="0.0" y="-26.5" />
+      <point x="550.0" y="206.0" />
+      <point x="449.83333333333337" y="206.0" />
+      <point x="63.33333333333337" y="90.5" />
+    </edge>
+    <edge source="Mouse" target="Device">
+      <point x="0.0" y="-14.5" />
+      <point x="276.5" y="206.0" />
+      <point x="323.1666666666667" y="206.0" />
+      <point x="-63.333333333333314" y="90.5" />
+    </edge>
+    <edge source="Scanner" target="Device">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="90.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7560675883256528" x="470.7305973181634" y="219.39658675335232" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
